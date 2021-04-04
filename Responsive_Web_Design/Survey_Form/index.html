@@ -15,109 +15,128 @@
       </p>
 
       <form id="survey-form">
-        <div class="form-item">
-          <label for="name" id="name-label">Full Name:</label>
-          <input
-            class="text-input"
-            id="name"
-            type="text"
-            placeholder="Enter full name here..."
-          />
-        </div>
-        <div class="form-item">
-          <label for="email" id="email-label">Email:</label>
-          <input
-            class="text-input"
-            id="email"
-            type="email"
-            placeholder="Enter email here..."
-          />
-        </div>
-        <div class="form-item">
-          <label for="number" id="number-label">Age:</label>
-          <input
-            class="text-input"
-            id="number"
-            type="number"
-            min="18"
-            max="120"
-            placeholder="Enter age here..."
-          />
-        </div>
-        <div class="form-item">
-          <label for="dropdown" id="dropdown-label"
-            >How many times per year do you visit?</label
-          >
-          <select id="dropdown">
-            <option value="0-3">0-3</option>
-            <option value="4-7">4-7</option>
-            <option value="8-10">8-10</option>
-            <option value="11+">more than 10</option>
-          </select>
-        </div>
-        <div class="form-item">
-          <label
-            >If you could change one of the following things about the
-            restaurant, what would it be?</label
-          >
-          <div>
+        <div class="form-row">
+          <div class="form-item">
+            <label for="name" id="name-label">Full Name:</label>
             <input
-              type="radio"
-              id="decor"
-              name="suggestions"
-              value="decor"
-              checked
+              class="text-input"
+              id="name"
+              type="text"
+              placeholder="Enter full name here..."
             />
-            <label for="decor">Decor</label>
           </div>
-          <div>
+          <div class="form-item">
+            <label for="email" id="email-label">Email:</label>
             <input
-              type="radio"
-              id="food"
-              name="suggestions"
-              value="food"
-              checked
+              class="text-input"
+              id="email"
+              type="email"
+              placeholder="Enter email here..."
             />
-            <label for="food">Food</label>
-          </div>
-          <div>
-            <input
-              type="radio"
-              id="service"
-              name="suggestions"
-              value="service"
-              checked
-            />
-            <label for="decor">Service</label>
           </div>
         </div>
+        <div class="form-row">
+          <div class="form-item">
+            <label for="number" id="number-label">Age:</label>
+            <input
+              class="text-input"
+              id="number"
+              type="number"
+              min="18"
+              max="120"
+              placeholder="Enter age here..."
+            />
+          </div>
+          <div class="form-item">
+            <label for="dropdown" id="dropdown-label">Visit Frequency</label>
+            <select id="dropdown">
+              <option value="0-3">0-3 per year</option>
+              <option value="4-7">4-7 per year</option>
+              <option value="8-10">8-10 per year</option>
+              <option value="11+">more than 10 per year</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-item">
+            <label
+              >If you could change one of the following things about the
+              restaurant, what would it be?</label
+            >
+            <div>
+              <input
+                type="radio"
+                id="decor"
+                name="suggestions"
+                value="decor"
+                checked
+              />
+              <label for="decor">Decor</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="food"
+                name="suggestions"
+                value="food"
+                checked
+              />
+              <label for="food">Food</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                id="service"
+                name="suggestions"
+                value="service"
+                checked
+              />
+              <label for="decor">Service</label>
+            </div>
+          </div>
 
-        <div class="form-item">
-          <label>Please check all of the items you ordered:</label>
-          <div>
-            <input type="checkbox" id="pasta" name="food-list" value="pasta" />
-            <label for="pasta">Pasta</label>
-          </div>
-          <div>
-            <input type="checkbox" id="steak" name="food-list" value="steak" />
-            <label for="steak">Steak</label>
-          </div>
-          <div>
-            <input type="checkbox" id="fries" name="food-list" value="fries" />
-            <label for="fries">Fries</label>
-          </div>
-          <div>
-            <input type="checkbox" id="mac" name="food-list" value="mac" />
-            <label for="mac">Mac & Cheese</label>
-          </div>
-          <div>
-            <input
-              type="checkbox"
-              id="potatoes"
-              name="food-list"
-              value="potatoes"
-            />
-            <label for="potatoes">Mashed Potatoes</label>
+          <div class="form-item">
+            <label>Please check all of the items you ordered:</label>
+            <div>
+              <input
+                type="checkbox"
+                id="pasta"
+                name="food-list"
+                value="pasta"
+              />
+              <label for="pasta">Pasta</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="steak"
+                name="food-list"
+                value="steak"
+              />
+              <label for="steak">Steak</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="fries"
+                name="food-list"
+                value="fries"
+              />
+              <label for="fries">Fries</label>
+            </div>
+            <div>
+              <input type="checkbox" id="mac" name="food-list" value="mac" />
+              <label for="mac">Mac & Cheese</label>
+            </div>
+            <div>
+              <input
+                type="checkbox"
+                id="potatoes"
+                name="food-list"
+                value="potatoes"
+              />
+              <label for="potatoes">Mashed Potatoes</label>
+            </div>
           </div>
         </div>
         <div class="form-item">
