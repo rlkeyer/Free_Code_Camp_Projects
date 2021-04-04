@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+#header {
+  /* height: 2.5rem; */
+  display: flex;
+  padding: 0.5rem;
+}
+
+.logo {
+  height: 2.5rem;
+  width: 2.5rem;
+}
