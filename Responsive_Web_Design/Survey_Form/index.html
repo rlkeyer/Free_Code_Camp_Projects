@@ -31,6 +31,7 @@
               class="text-input"
               id="email"
               type="email"
+              name="email"
               placeholder="Enter email here..."
             />
           </div>
@@ -69,7 +70,7 @@
                 id="decor"
                 name="suggestions"
                 value="decor"
-                checked
+                class="radio"
               />
               <label for="decor">Decor</label>
             </div>
@@ -79,7 +80,7 @@
                 id="food"
                 name="suggestions"
                 value="food"
-                checked
+                class="radio"
               />
               <label for="food">Food</label>
             </div>
@@ -89,7 +90,7 @@
                 id="service"
                 name="suggestions"
                 value="service"
-                checked
+                class="radio"
               />
               <label for="decor">Service</label>
             </div>
@@ -97,12 +98,13 @@
 
           <div class="form-item">
             <label>Please check all of the items you ordered:</label>
-            <div>
+            <div class="checkbox">
               <input
                 type="checkbox"
                 id="pasta"
                 name="food-list"
                 value="pasta"
+                class="checkbox"
               />
               <label for="pasta">Pasta</label>
             </div>
@@ -112,6 +114,7 @@
                 id="steak"
                 name="food-list"
                 value="steak"
+                class="checkbox"
               />
               <label for="steak">Steak</label>
             </div>
@@ -121,11 +124,18 @@
                 id="fries"
                 name="food-list"
                 value="fries"
+                class="checkbox"
               />
               <label for="fries">Fries</label>
             </div>
             <div>
-              <input type="checkbox" id="mac" name="food-list" value="mac" />
+              <input
+                type="checkbox"
+                id="mac"
+                name="food-list"
+                value="mac"
+                class="checkbox"
+              />
               <label for="mac">Mac & Cheese</label>
             </div>
             <div>
@@ -134,6 +144,7 @@
                 id="potatoes"
                 name="food-list"
                 value="potatoes"
+                class="checkbox"
               />
               <label for="potatoes">Mashed Potatoes</label>
             </div>
